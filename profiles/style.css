@@ -1,0 +1,41 @@
+body {
+ font-family: "Open Sans", "Helvetica Neue", sans-serif;
+ color: #222222;
+ font-size: 1em;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+ background-color: #36393f;
+}
+.profile-card {
+ background-color: #2f3136;
+ border-radius: 10px;
+ padding: 20px;
+ width: 300px;
+ position: relative;
+}
+.profile-banner {
+ height: 100px;
+ background-size: cover;
+ background-position: center;
+ border-radius: 10px 10px 0 0;
+}
+.profile-pic {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ object-fit: cover;
+ position: absolute;
+ top: 60px;
+ left: 50%;
+ transform: translateX(-50%);
+}
+.username {
+ color: #ffffff;
+ margin: 10px 0;
+}
+.description {
+ color: #b9bbbe;
+}
