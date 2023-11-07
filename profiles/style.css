@@ -39,3 +39,21 @@ body {
 .description {
  color: #b9bbbe;
 }
+.profile-links a i {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.profile-links a:hover i {
+  color: #b9bbbe;
+}
+.profile-links a {
+   color: #ffffff;
+   text-decoration: none;
+   margin: 10px 0;
+   display: block;
+}
+
+.profile-links a:hover {
+   color: #b9bbbe;
+}
